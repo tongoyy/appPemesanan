@@ -1,0 +1,179 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar -->
+    <div class="navbar navbar-large">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="title">Aplikasi Pemesanan</div>
+        <div class="title-large">
+          <div class="title-large-text">Aplikasi Pemesanan</div>
+        </div>
+      </div>
+    </div>
+    <!-- Toolbar-->
+
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+      </div>
+    </div>
+
+    <div class="toolbar toolbar-bottom tabbar">
+      <div class="toolbar-inner">
+        <a href="#tab-1" class="tab-link"><i class="f7-icons">house_fill</i></a>
+        <a href="#tab-2" class="tab-link"><i class="f7-icons">heart_fill</i></a>
+        <a href="#tab-3" class="tab-link"><i class="f7-icons">cart_fill</i></a>
+      </div>
+    </div>
+    <swiper-container class="tabs">
+      <swiper-slide id="tab-1" class="page-content tab tab-active">
+        <div class="block">
+
+          <div class="card">
+            <div class="chip bg-color-orange">
+              <div class="chip-media bg-color-yellow">
+                <i class="f7-icons">plus_circle</i>
+              </div>
+              <div class="chip-label">Daftar Menu</div>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div class="grid grid-cols-2">
+            <div>
+              <div class="card">
+                <div class="card-content card-content-padding">
+                  <p class="card-header-text">Soto Ayam</p>
+                  <div class="card-image-container">
+                    <img src="/images/ayam-Photoroom.png" class="card-images" />
+                  </div>
+                  <p class="card-price">
+                    Rp. 15.000
+                  </p>
+                  <a href="#">
+                    <button class="button button-round button-fill col bg-color-orange">+<i
+                        class="f7-icons">cart_fill</i></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <div class="card-content card-content-padding">
+                  <p class="card-header-text">Soto Ceker</p>
+                  <div class="card-image-container">
+                    <img src="/images/ceker-Photoroom.png" class="card-images" />
+                  </div>
+                  <p class="card-price">
+                    Rp. 12.000
+                  </p>
+                  <a href="#">
+                    <button class="button button-round button-fill col bg-color-orange">+<i
+                        class="f7-icons">cart_fill</i></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="grid grid-cols-2">
+            <div>
+              <div class="card">
+                <div class="card-content card-content-padding">
+                  <p class="card-header-text">Soto
+                  <p></p> Lamongan</p>
+                  <div class="card-image-container">
+                    <img src="/images/lamongan-Photoroom.png" class="card-images" />
+                  </div>
+                  <p class="card-price">
+                    Rp. 18.000
+                  </p>
+                  <a href="#">
+                    <button class="button button-round button-fill col bg-color-orange">+<i
+                        class="f7-icons">cart_fill</i></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <div class="card-content card-content-padding">
+                  <p class="card-header-text">Soto
+                  <p></p> Mie</p>
+                  <div class="card-image-container">
+                    <img src="/images/mie-Photoroom.png" class="card-images" />
+                  </div>
+                  <p class="card-price">
+                    Rp. 16.000
+                  </p>
+                  <a href="#">
+                    <button class="button button-round button-fill col bg-color-orange">+<i
+                        class="f7-icons">cart_fill</i></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="grid grid-cols-2">
+            <div>
+              <div class="card">
+                <div class="card-content card-content-padding">
+                  <p class="card-header-text">Nasi</p>
+                  <div class="card-image-container">
+                    <img src="/images/nasi-Photoroom.png" class="card-images" />
+                  </div>
+                  <p class="card-price">
+                    Rp. 6.000
+                  </p>
+                  <a href="#">
+                    <button class="button button-round button-fill col bg-color-orange">+<i
+                        class="f7-icons">cart_fill</i></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card">
+                <div class="card-content card-content-padding">
+                  <p class="card-header-text">Es Teh</p>
+                  <div class="card-image-container">
+                    <img src="/images/teh-Photoroom.png" class="card-images" />
+                  </div>
+                  <p class="card-price">
+                    Rp. 5.000
+                  </p>
+                  <a href="#">
+                    <button class="button button-round button-fill col bg-color-orange">+<i
+                        class="f7-icons">cart_fill</i></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </swiper-slide>
+      <swiper-slide id="tab-2" class="page-content tab">
+        <div class="block">
+          <p>Your favorite product here</p>
+
+        </div>
+      </swiper-slide>
+      <swiper-slide id="tab-3" class="page-content tab">
+        <div class="block">
+          <p>Tab 3 content</p>
+
+        </div>
+      </swiper-slide>
+    </swiper-container>
+
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  }
+</script>
